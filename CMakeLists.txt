@@ -1038,6 +1038,7 @@ if (BUILD_TESTS OR BUILD_BENCHMARKS)
         SOURCES LifoSemTests.cpp
       TEST synchronization_relaxed_atomic_test WINDOWS_DISABLED
         SOURCES RelaxedAtomicTest.cpp
+      TEST synchronization_rcu_test SOURCES RcuTest.cpp
       TEST synchronization_rw_spin_lock_test SOURCES RWSpinLockTest.cpp
       TEST synchronization_semaphore_test WINDOWS_DISABLED
         SOURCES SemaphoreTest.cpp
